@@ -1,7 +1,6 @@
-// Lista de amigos
+
 let amigos = [];
 
-// Função para adicionar amigo
 function adicionarAmigo() {
   let nome = document.getElementById("amigo").value.trim();
   if (nome && !amigos.includes(nome)) {
@@ -13,7 +12,6 @@ function adicionarAmigo() {
   }
 }
 
-// Função para realizar o sorteio
 function sortearAmigo() {
   if (amigos.length < 2) {
     alert("Número insuficiente de amigos para o sorteio.");
@@ -25,8 +23,6 @@ function sortearAmigo() {
   resultadoLista.innerHTML = `<li>🎁 Seu amigo secreto é: <strong>${sorteado}</strong> 🎉</li>`;
 }
 
-
-// Função para iniciar novo sorteio
 function iniciarNovoSorteio() {
   amigos = [];
   document.getElementById("listaAmigos").innerHTML = "";
