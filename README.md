@@ -29,7 +29,7 @@ Este projeto é um sorteador de **Amigo Secreto** desenvolvido com **HTML, CSS e
 3. Digite os nomes e clique em **Adicionar**.  
 4. Pressione **Sortear amigo** para exibir o resultado.  
 5. Caso queira um novo sorteio, clique em **Novo Sorteio**.
-6. ou acesse:   
+6. ou acesse: https://amigo-secreto-six-wine.vercel.app/
 
 📩 Caso tenha sugestões, entre em contato! 😊
 
